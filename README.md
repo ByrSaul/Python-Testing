@@ -13,7 +13,7 @@ coverage report
 coverage html
 
 #With unittest
-python -m unittest tests
+python -m discover unittest tests
 
 #with doctest
 pyton -m doctest src/calculator.py 
